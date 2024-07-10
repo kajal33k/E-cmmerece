@@ -1,0 +1,39 @@
+.item {
+    position: relative;
+    max-width: 400px; /* Adjust width as needed */
+    margin: 0 auto;
+  }
+  
+  .profile-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%;
+  }
+  
+  .google-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+  }
+  
+  .content {
+    margin-top: 60px; /* Adjust spacing between profile photo and content */
+  }
+  
+  /* Additional styling for name, rating, and comment */
+  .name {
+    font-weight: bold;
+  }
+  
+  .rating {
+    margin: 5px 0;
+  }
+  
+  .comment {
+    margin-top: 10px;
+  }

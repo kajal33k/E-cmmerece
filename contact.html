@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="input.css">
+     <!-- Include Owl Carousel CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+   <!-- Include jQuery -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <!-- Include Owl Carousel JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Alpine.js -->
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+  <style>
+    .box{
+      
+      border: 1px;
+      padding: 10px;
+      box-shadow:2px 4px 8px rgb(151, 6, 6);
+     
+    }
+    .footer {
+      background-color: #f00;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>  
+</head>
+<body>
+  <header class="bg-white shadow-lg">
+    <nav class="container mx-auto flex items-center justify-between py-4">
+      <!-- Logo -->
+      <div class="flex items-center">
+        <img class="h-10 w-30" src="images\cropped-raghunanadan-logo.webp" alt="">
+      </div>
+      
+      <!-- Mobile menu toggle button -->
+      <button class="text-black md:hidden" onclick="toggleMenu()">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+      </button>
+      
+      <!-- Dropdown menu -->
+      <ul id="dropdownMenu" class="hidden md:flex md:items-center space-x-4">
+        <li class="relative">
+          <a href="index.html" class="text-black hover:text-red-500 px-3 py-2 font-medium rounded transition duration-300 ease-in-out">Home</a>
+        </li>
+        <li class="relative">
+          <a href="about.html" class="text-black hover:text-red-500 px-3 py-2 font-medium rounded transition duration-300 ease-in-out">About</a>
+        </li>
+        <li class="relative">
+          <a href="contact.html" class="text-black hover:text-red-500 px-3 py-2 font-medium rounded transition duration-300 ease-in-out">Contact Us</a>
+        </li>
+        <li class="relative">
+          <a href="product.html" class="text-black hover:text-red-500 px-3 py-2 font-medium rounded transition duration-300 ease-in-out">Product</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Mobile dropdown menu -->
+  <div id="mobileMenu" class="md:hidden bg-white shadow-lg">
+    <ul class="flex flex-col items-center">
+      <li class="py-2">
+        <a href="index.html" class="text-black hover:text-red-500 font-medium">Home</a>
+      </li>
+      <li class="py-2">
+        <a href="about.html" class="text-black hover:text-red-500 font-medium">About</a>
+      </li>
+      <li class="py-2">
+        <a href="contact.html" class="text-black hover:text-red-500 font-medium">Contact Us</a>
+      </li>
+      <li class="py-2">
+        <a href="product.html" class="text-black hover:text-red-500 font-medium">Product</a>
+      </li>
+    </ul>
+  </div>
+  
+  <!-- JavaScript to toggle mobile menu -->
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('hidden');
+    }
+  </script>
+  
+
+                            <!-- ABOUT- DIV -->
+      
+<div class=" About bg-opacity-40 h-[100%] w-screen" style="background-image: url('images/flowers-2708995_640.webp'); background-size: cover; background-position: center; height:100%;">
+  <div class="main bg-black bg-opacity-40 h-[450px] w-screen rounded-lg p-8">
+    <div class="flex justify-center">
+      <h1 class="font-bold text-3xl text-white my-24">Contact Us</h1>
+    </div>
+  </div>
+</div>
+
+<!--CONTACT - MAP-->
+<section class=" mt-10 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-8 max-w-screen-lg mx-auto mb-4">
+    <!-- Contact Information -->
+    <div class="bg-gray-500 p-8 rounded-lg shadow-lg">
+      <h2 class="text-2xl font-semibold mb-4 text-white">Get In Touch</h2>
+      <div class="mb-4 flex items-center">
+        <img src="images/download (3).png" alt="" class="h-8 w-8 rounded-full mr-4">
+        <div>
+          <label for="name" class="block text-white font-medium mb-1">Meet Us</label>
+          <p class="text-white">116 Shehar, Sarafa Bazar, Kotla Bazaar, Velli Bazaar, Meerut, Uttar Pradesh 250002</p>
+        </div>
+      </div>
+      <!-- Additional Contact Information -->
+      <!-- Adjust styling as needed -->
+      <div class="mb-4 flex items-center">
+        <!-- Icon -->
+        <img src="images/download (4).png" alt="" class="h-8 w-8 rounded-full mr-4">
+        <!-- Contact Details -->
+        <div>
+          <label for="email" class="block text-white font-medium mb-1">Calling Us</label>
+          <p class="text-white">97600 08728<br>99178 28676</p>
+        </div>
+      </div>
+      <div class="mb-4 flex items-center">
+        <img src="images/download (5).png" alt="" class="h-8 w-8 rounded-full mr-4">
+        <div>
+          <label for="message" class="block text-white font-medium mb-1">Email Us</label>
+          <p class="text-white">meerut.rps@gmail.com</p>
+        </div>
+  </div>
+  
+      
+      <!-- Social Media Icons -->
+      <div class="flex items-center space-x-6 mt-16">
+        <!-- Icons and Links -->
+  
+        <!-- Adjust styling and links as needed -->
+        <a href="#" class="text-white hover:text-blue-500 transition duration-300 ease-in-out">
+          <!-- Facebook icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                  class="w-8 h-8">
+                  <path
+                      d="M12.727 6.718h-.012c-2.247 0-3.133 1.131-3.133 2.862v1.495H7v2.399h2.582v6.169h2.606v-6.169h2.552l.359-2.399h-2.911V9.72c0-.652.183-1.002 1.124-1.002h1.727V6.718z" />
+              </svg>
+  
+        </a>
+        <a href="#" class="text-white hover:text-blue-400 transition duration-300 ease-in-out">
+          <!-- Twitter icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+                  class="w-8 h-8">
+                  <path
+                      d="M8.412 20.412c9.08 0 14.038-7.502 14.038-14.038 0-.214 0-.428-.012-.642A10.056 10.056 0 0 0 22 3.194a10.073 10.073 0 0 1-2.856.782 5.029 5.029 0 0 0 2.206-2.782 10.135 10.135 0 0 1-3.2 1.221A5.032 5.032 0 0 0 12.5 6.567a5.047 5.047 0 0 0-1.318 6.908A14.289 14.289 0 0 1 2.026 4.48a5.046 5.046 0 0 0 1.558 6.737A5.008 5.008 0 0 1 2 10.55v.064a5.032 5.032 0 0 0 4.034 4.914 5.036 5.036 0 0 1-2.294.087 5.033 5.033 0 0 0 4.702 3.496A10.085 10.085 0 0 1 2 18.289a14.25 14.25 0 0 0 7.412 2.123" />
+              </svg>
+  
+        </a>
+        <a href="#" class="text-white hover:text-pink-500 transition duration-300 ease-in-out">
+          <!-- Instagram icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+          class="w-8 h-8">
+          <path
+              d="M12 2.157c3.204 0 3.579.012 4.838.07 1.258.058 2.463.262 3.463.562.998.299 1.862.775 2.646 1.56.784.784 1.26 1.648 1.56 2.646.3 1 .504 2.205.562 3.463.058 1.26.07 1.635.07 4.838s-.012 3.579-.07 4.838c-.058 1.258-.262 2.463-.562 3.463-.299.998-.775 1.862-1.56 2.646-.784.784-1.648 1.26-2.646 1.56-1 .3-2.205.504-3.463.562-1.259.058-1.634.07-4.838.07s-3.579-.012-4.838-.07c-1.258-.058-2.463-.262-3.463-.562-.998-.299-1.862-.775-2.646-1.56-.784-.784-1.26-1.648-1.56-2.646-.3-1-.504-2.205-.562-3.463-.058-1.259-.07-1.634-.07-4.838s.012-3.579.07-4.838c.058-1.258.262-2.463.562-3.463.299-.998.775-1.862 1.56-2.646.784-.784 1.648-1.26 2.646-1.56.999-.3 2.205-.504 3.463-.562 1.259-.058 1.634-.07 4.838-.07zm0 1.712c-3.183 0-3.54.01-4.777.068-1.143.053-1.843.249-2.297.416-.63.189-1.074.459-1.574.959-.5.5-.77.944-.959 1.574-.167.454-.363 1.154-.416 2.297-.058 1.238-.068 1.594-.068 4.777s.01 3.54.068 4.777c.053 1.143.249 1.843.416 2.297.189.63.459 1.074.959 1.574.5.5.944.77 1.574.959.454.167 1.154.363 2.297.416 1.238.058 1.594.068 4.777.068s3.54-.01 4.777-.068c1.143-.053 1.843-.249 2.297-.416.63-.189 1.074-.459 1.574-.959.5-.5.77-.944.959-1.574.167-.454.363-1.154.416-2.297.058-1.238.068-1.594.068-4.777s-.01-3.54-.068-4.777c-.053-1.143-.249-1.843-.416-2.297-.189-.63-.459-1.074-.959-1.574-.5-.5-.944-.77-1.574-.959-.454-.167-1.154-.363-2.297-.416-1.238-.058-1.594-.068-4.777-.068zm0 4.055a3.24 3.24 0 0 1 0 6.48 3.24 3.24 0 0 1 0-6.48zm0 1.712a1.528 1.528 0 1 0 0 3.056 1.528 1.528 0 0 0 0-3.056zm5.77-.04a.777.777 0 1 0 0 1.554.777.777 0 0 0 0-1.554z" />
+      </svg>
+  
+        </a>
+      </div>
+    </div>
+  
+    <!-- Map -->
+    <div class="relative w-full h-50" style="padding-bottom: 56.25%;">
+      <iframe class="absolute inset-0 w-full h-full" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27922.969452461188!2d77.69937!3d28.976370000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c65d777dbc689%3A0x9ae636bf73aeb0ac!2zUmFnaHVuYW5kYW4gUHJhc2FkIFNhcnJhZiBKZXdlbGxlcnMg4KSw4KSY4KWB4KSo4KSC4KSm4KSoIOCkquCljeCksOCkuOCkvuCkpiDgpLjgpLDgpY3gpLDgpL7gpKs!5e0!3m2!1sen!2sus!4v1714992234843!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  
+  </section>
+  
+  
+  <!--HEADING ONE-->
+<div class="heading">
+    <div
+      class=" one text-red-600 text-3xl flex justify-center font-bold mt-8 text-center  sm:text md: text lg:text 2xl:text">
+      Why Choose Us ?</div>
+  </div>
+  
+  <!--CONTAINER ONE-->
+  
+  <div class="container mx-auto py-8 px-12">
+    <div class=" mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6 gap-6">
+      <!-- Column 1 -->
+      <div class="box bg-white rounded-3xl flex flex-col items-center justify-center p-4 shadow-lg shadow-red-500/50">
+        <img src="images\design.png.png" alt="Image 1" class="w-20 h-20 rounded-full mb-2">
+        <span class="text-lg font-semibold text-center">CLASSIC DESIGNER COLLECTION</span>
+      </div>
+      <!-- Column 2 -->
+      <div class=" box bg-white rounded-3xl flex flex-col items-center justify-center p-4 shadow-lg shadow-red-500/50">
+        <img src="images/download.png" alt="Image 2" class="w-20 h-20 rounded-full mb-2">
+        <span class="text-lg font-semibold text-center">TRANSPARENCY</span>
+      </div>
+      <!-- Column 3 -->
+      <div class="box bg-white rounded-3xl flex flex-col items-center justify-center p-4 shadow-lg shadow-red-500/50">
+        <img src="images\images.jpeg" alt="Image 3" class="w-20 h-20 rounded-full mb-2">
+        <span class="text-lg font-semibold text-center">100% SATISFACTION</span>
+      </div>
+      <!-- Column 4 -->
+      <div class="box bg-white rounded-3xl flex flex-col items-center justify-center p-4 shadow-lg shadow-red-500/50">
+        <img src="images\images.png" alt="Image 4" class="w-20 h-20 rounded-full mb-2">
+        <span class="text-lg font-semibold text-center">BEST PRICE GUARANTEED</span>
+      </div>
+      <!-- Column 5 -->
+      <div class="box bg-white rounded-3xl flex flex-col items-center justify-center p-4 shadow-lg shadow-red-500/50">
+        <img src="images\images (1).png" alt="Image 5" class="w-20 h-20 rounded-full mb-2">
+        <span class="text-lg font-semibold text-center">TRUSTWORTHY</span>
+      </div>
+  
+  <!-- Column 6 -->
+  <div class="box bg-white rounded-3xl flex flex-col items-center justify-center p-4 shadow-lg shadow-red-500/50">
+    <img src="images\download (1).jpeg" alt="Image 4" class="w-20 h-20 rounded-full mb-2">
+    <span class="text-lg font-semibold text-center">100% GUARANTEED EXCHANGE</span>
+  </div>
+  
+  
+    </div>
+  </div>
+
+   <!--HEADINGS-->
+<div class="">
+    <div class="w-screen h-[10vh] text-center text-bold text-xl">
+      <span class="">Good</span>
+      <div class="flex justify-center space-x-1 mb-4">
+        <svg class="w-6 h-6 fill-current text-yellow-500" viewBox="0 0 24 24">
+          <path d="M12 15.35L18.18 19l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 19z">
+          </path>
+          <path d="M0 0h24v24H0z" fill="none"></path>
+        </svg>
+        <svg class="w-6 h-6 fill-current text-yellow-500" viewBox="0 0 24 24">
+          <path d="M12 15.35L18.18 19l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 19z">
+          </path>
+          <path d="M0 0h24v24H0z" fill="none"></path>
+        </svg>
+        <svg class="w-6 h-6 fill-current text-yellow-500" viewBox="0 0 24 24">
+          <path d="M12 15.35L18.18 19l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 19z">
+          </path>
+          <path d="M0 0h24v24H0z" fill="none"></path>
+        </svg>
+        <svg class="w-6 h-6 fill-current text-yellow-500" viewBox="0 0 24 24">
+          <path d="M12 15.35L18.18 19l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 19z">
+          </path>
+          <path d="M0 0h24v24H0z" fill="none"></path>
+        </svg>
+        <svg class="w-6 h-6 fill-current text-yellow-500" viewBox="0 0 24 24">
+          <path d="M12 15.35L18.18 19l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 19z">
+          </path>
+          <path d="M0 0h24v24H0z" fill="none"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="text">
+      <h3 class="w-screen h-[4vh] text-center text-20px">Based on<span class="font-bold"> 28 reviews</span></h3>
+    </div>
+    <div class=" w-screen h-[10vh] text-center font-bold text-2xl">
+      <span class="text-blue-500">G</span>
+      <span class="text-red-500">o</span>
+      <span class="text-yellow-500">o</span>
+      <span class="text-blue-500">g</span>
+      <span class="text-green-500">l</span>
+      <span class="text-red-500">e</span>
+    </div>
+  </div>
+  
+                        <!-- Google rating slide container -->
+                            <!--SLIDER-->
+  
+<div class="container mx-auto my-12">
+<div class="owl-carousel owl-theme">
+<div class="item relative">
+<div class="content mb-8 shadow-lg text-center h-[30vh]">
+<!-- <img src="images\download (2).png" alt="..." class="profile-img rounded-full"> -->
+<p class="name">John Doe</p>
+<p class="rating">⭐️⭐️⭐️</p>
+<p class="comment mb-4">"Great service! Highly recommended."</p>
+<span class="text-gray-500">Date: Jan 1, 2024</span>
+</div>
+                                
+                              
+</div>
+                              
+<div class="item relative">
+<div class="content mb-8 shadow-lg text-center h-[30vh]">
+<!-- <img src="images\download (2).png" alt="..." class="profile-img rounded-full"> -->
+<p class="name">leo Smith</p>
+<p class="rating">⭐️⭐️⭐️⭐️⭐️</p>
+<p class="comment mb-4">"Great service! Highly recommended."</p>
+<span class="text-gray-500 p-4">Date: dec 31, 2024</span>
+</div>
+                                
+                              
+</div>
+                              
+                                                                    
+</div>
+</div>                           
+                           
+  
+  
+  
+                              <!-- footer -->
+  <div class="bg-black w-screen">                          
+  <div class="container bg-black">
+  <div class="main2 w-screen h-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-4">
+  <div class="card mt-4 mx-auto px-28">
+  <img src="images/cropped-raghunanadan-logo.webp" alt="Logo" style="width:84%;">
+  <p class="text-white mt-6">Raghunandan Prasad Sarraf<br> Jewelry, with a legacy spanning <br>106 years, is synonymous with<br> unparalleled craftsmanship and <br>timeless elegance.</p>
+  <div class="social-icons">
+                                                                        <!-- Social media icons -->
+  <div class="flex items-center space-x-4 mt-4 mb-14 gap-4">
+                                                                          <!-- Facebook icon -->
+  <a href="#" class="text-white hover:text-blue-500 transition duration-300 ease-in-out">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+  class="w-8 h-8">
+  <path
+  d="M12.727 6.718h-.012c-2.247 0-3.133 1.131-3.133 2.862v1.495H7v2.399h2.582v6.169h2.606v-6.169h2.552l.359-2.399h-2.911V9.72c0-.652.183-1.002 1.124-1.002h1.727V6.718z" />
+  </svg>
+  </a>
+                                                                          <!-- Twitter icon -->
+  <a href="#" class="text-white hover:text-blue-400 transition duration-300 ease-in-out">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+  class="w-8 h-8">
+  <path
+  d="M8.412 20.412c9.08 0 14.038-7.502 14.038-14.038 0-.214 0-.428-.012-.642A10.056 10.056 0 0 0 22 3.194a10.073 10.073 0 0 1-2.856.782 5.029 5.029 0 0 0 2.206-2.782 10.135 10.135 0 0 1-3.2 1.221A5.032 5.032 0 0 0 12.5 6.567a5.047 5.047 0 0 0-1.318 6.908A14.289 14.289 0 0 1 2.026 4.48a5.046 5.046 0 0 0 1.558 6.737A5.008 5.008 0 0 1 2 10.55v.064a5.032 5.032 0 0 0 4.034 4.914 5.036 5.036 0 0 1-2.294.087 5.033 5.033 0 0 0 4.702 3.496A10.085 10.085 0 0 1 2 18.289a14.25 14.25 0 0 0 7.412 2.123" />
+  </svg>
+  </a>
+                                 <!-- Instagram icon -->
+  <a href="#" class="text-white hover:text-pink-500 transition duration-300 ease-in-out">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
+  class="w-8 h-8">
+  <path
+  d="M12 2.157c3.204 0 3.579.012 4.838.07 1.258.058 2.463.262 3.463.562.998.299 1.862.775 2.646 1.56.784.784 1.26 1.648 1.56 2.646.3 1 .504 2.205.562 3.463.058 1.26.07 1.635.07 4.838s-.012 3.579-.07 4.838c-.058 1.258-.262 2.463-.562 3.463-.299.998-.775 1.862-1.56 2.646-.784.784-1.648 1.26-2.646 1.56-1 .3-2.205.504-3.463.562-1.259.058-1.634.07-4.838.07s-3.579-.012-4.838-.07c-1.258-.058-2.463-.262-3.463-.562-.998-.299-1.862-.775-2.646-1.56-.784-.784-1.26-1.648-1.56-2.646-.3-1-.504-2.205-.562-3.463-.058-1.259-.07-1.634-.07-4.838s.012-3.579.07-4.838c.058-1.258.262-2.463.562-3.463.299-.998.775-1.862 1.56-2.646.784-.784 1.648-1.26 2.646-1.56.999-.3 2.205-.504 3.463-.562 1.259-.058 1.634-.07 4.838-.07zm0 1.712c-3.183 0-3.54.01-4.777.068-1.143.053-1.843.249-2.297.416-.63.189-1.074.459-1.574.959-.5.5-.77.944-.959 1.574-.167.454-.363 1.154-.416 2.297-.058 1.238-.068 1.594-.068 4.777s.01 3.54.068 4.777c.053 1.143.249 1.843.416 2.297.189.63.459 1.074.959 1.574.5.5.944.77 1.574.959.454.167 1.154.363 2.297.416 1.238.058 1.594.068 4.777.068s3.54-.01 4.777-.068c1.143-.053 1.843-.249 2.297-.416.63-.189 1.074-.459 1.574-.959.5-.5.77-.944.959-1.574.167-.454.363-1.154.416-2.297.058-1.238.068-1.594.068-4.777s-.01-3.54-.068-4.777c-.053-1.143-.249-1.843-.416-2.297-.189-.63-.459-1.074-.959-1.574-.5-.5-.944-.77-1.574-.959-.454-.167-1.154-.363-2.297-.416-1.238-.058-1.594-.068-4.777-.068zm0 4.055a3.24 3.24 0 0 1 0 6.48 3.24 3.24 0 0 1 0-6.48zm0 1.712a1.528 1.528 0 1 0 0 3.056 1.528 1.528 0 0 0 0-3.056zm5.77-.04a.777.777 0 1 0 0 1.554.777.777 0 0 0 0-1.554z" />
+  </svg>
+  </a>
+  </div>
+  </div>
+  </div>
+                                                            
+                                  <!-- Card 2 -->
+  <div class="card items-center">
+  <h1 class="font-bold text-white mt-8 text-center">Useful Links</h1>
+  <nav class="text-white mt-4  text-[20px] text-center">
+  <a href="index.html">Home</a><br><br>
+  <a href="about.html">About</a><br><br>
+  <a href="contact.html">Contact Us</a><br><br>
+  <a href="product.html">Products</a><br><br>
+  </nav>
+  </div>
+                                   
+                                                              <!-- Card 3 -->
+  <div class="card">
+  <h1 class="text-white mt-6 font-bold text-center">Products</h1>
+  <div class="product-images mt-4 text-center">
+                                                                                                  <!-- Product images -->
+  <div class="product-images row grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 px-2 mx-2 gap-2">
+  <img src="images/429564467_339039532468045_5148075543857574077_n.webp" alt="Product 1" class="">
+  <img src="images/429564467_339039532468045_5148075543857574077_n.webp" alt="Product 2" class="">
+  <img src="images/429564467_339039532468045_5148075543857574077_n.webp" alt="Product 3" class="">
+  <img src="images/429564467_339039532468045_5148075543857574077_n.webp" alt="Product 4" class="">
+  </div>
+                                                                                                  
+  </div>
+  </div>
+                                       <!-- Card 4 -->
+  <div class="card ">
+  <h1 class="text-white mt-6 font-bold text-center">Subscribe Now</h1>
+  <p class="text-white mt-4 text-center">Don’t miss our future updates!<br> Get Subscribed Today!</p>
+  <form class="mt-4 mb-4 text-center">
+  <input type="email" placeholder="Enter your email" class="rounded-full">
+  <button type="submit" class="text-white bg-red-500 w-10 rounded-full">Send</button>
+  </form>
+  </div>
+  </div>
+                                        
+                                                                                                              
+  </div>
+  </div>
+  </div>  
+                                 <!-- Footer -->
+  <footer class="footer flex  bg-red-600 sm:flex-row">
+  <div class="mx-auto text-white">  © 2024 Raghunandansansaraf </div><div class="mx-auto text-white">Design and Developed by real victory groups</div>
+  </footer> 
+                                
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      autoplay:true,
+      autoplayTimeout:2000, // Adjust the autoplay timeout as needed
+      autoplayHoverPause:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:3
+          }
+      }
+  })
+  </script>
+
+</body>
+</html>
